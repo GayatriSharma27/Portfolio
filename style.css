@@ -1,0 +1,24 @@
+@import url('https://fonts.google.com/');
+*{
+    background: rgb(97,7,83);
+    background: linear-gradient(140deg, rgba(97,7,83,1) 0%, rgba(44,30,74,1) 37%, rgba(42,29,72,1) 81%, rgba(52,30,77,1) 97%, rgba(2,0,36,1) 99%);
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    margin: 0px;
+    padding:0px;
+}
+
+/* navigation bar  */
+.bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.link{
+
+    color:white;
+
+
+}
