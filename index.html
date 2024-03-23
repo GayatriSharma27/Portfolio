@@ -1,21 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Personal Portfolio</title>
 </head>
+
 <body>
     <header>
-        <nav class="bar">
-            <a class="link" href="#home">HOME</a>
-            <a class="link" href="#about">ABOUT</a>
-            <a class="link" href="#project">PROJECTS</a>
-            <a class="link" href="https://gayatrisharma.hashnode.dev/">BLOGS</a>
-            <a class="link" href="#contact">CONTACT</a>
+        <nav class="parent">
+            <div class="child1">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#project">PROJECTS</a>
+            <a href="https://gayatrisharma.hashnode.dev/">BLOGS</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#home">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#project">PROJECTS</a>
+                    <a href="https://gayatrisharma.hashnode.dev/">BLOGS</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </div>
         </nav>
+        
     </header>
-    
+    <main>
+
+        <section class="container1">
+           <div class="box">
+            <h1 class="name">GAYATRI SHARMA</h1>
+            <img src="src/my-pic.jpeg" height="500px" width="470px" alt="gayatri-image"> 
+           </div>
+           <h1>Full Stack Web Developer</h1>
+            
+        </section>
+        
+
+        <section id="about">
+            <h1>About Me</h1>
+            <p>My journey into the world of coding began when I enrolled in the
+                Computer Programming Diploma program at Seneca Polytechnic College. It was there that I discovered my
+                passion
+                for developing intuitive user interfaces and managing robust backend systems.
+                I believe in the power of continuous learning and strive to explore working on AI models and websites.
+                Outside of coding, you'll often find me reading literature novels or fiction books, or engaged in gym
+                workouts or dance choreographies.
+            </p>
+            <h1>Tech Stack</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Tailwind CSS</li>
+                <li>JavaScript</li>
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>MongoDB Atlas</li>
+                <li>SQL Oracle</li>
+                <li>Linux</li>
+                <li>Git & GitHub</li>
+                <li>React</li>
+                <li>Next.js</li>
+            </ul>
+        </section>
+
+        <section id="project">
+            <h1>Projects</h1>
+        </section>
+
+        <section id="contact">
+            <h1>Let's Get in Touch</h1>
+
+        </section>
+
+    </main>
+
 </body>
+
 </html>
