@@ -7,7 +7,6 @@
 *{
     background: rgb(97,7,83);
     background: linear-gradient(140deg, rgba(97,7,83,1) 0%, rgba(44,30,74,1) 37%, rgba(42,29,72,1) 81%, rgba(52,30,77,1) 97%, rgba(2,0,36,1) 99%);
-    /* background-repeat: no-repeat; */
     background-attachment: fixed;
     margin: 0px;
     padding:0px;
@@ -37,40 +36,74 @@ a:hover{
 
 /* 1st Page main content*/
 
-.name{
-    font-family: 'Lastica';
-    font-size: 70px;
+.container{
+     display: flex;
+     padding: 30px;
+     justify-content: space-around;
+     
+}
+
+/* css for name and title */
+
+.right{          
+    padding:100px;
+}
+
+.right h1{   /* css for name */
+    font-size: 100px;
+    font-family: Lastica;
+    width: 50px;
+}
+
+.right h2{      /* css for title */
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.left img{       /* css for image */
+    height:500px;
+    padding-top: 40px;
+}
+
+.social{
     padding-left:200px;
-    margin-top: 200px;
 }
 
-
-
-.title{
-    padding-left:280px;
-    font-family:monospace;
-    font-size: 45px;
-    margin-top:20px;
-}
-
-
-/* .container1::after{
-    content: "";
-    clear: both;
-    display:block;
+/* .social a:hover{
+    text-shadow: 1px 1px 7px white;
+    font-size: large;
 } */
 
+nav.social a:hover{
 
-/* .col-1 {
-    width: 50%;
+    box-shadow: 1px 1px 7px pink;
+    max-height: fit-content;
+    margin: 10px ;    
 }
-.col-2 {
-    width:30%;
-} */
 
+.seneca{
+    margin:15px;
 
+}
+
+.logo{
+    margin:15px;
+}
+
+.x{ 
+    margin:15px;
+}
+
+.ln{
+    margin:15px;
+}
+
+/* all media queries */
 
 @media only screen and (max-width: 600px) {
+    
+    /* for navbar */
+    
     .child1{
         display:none;
     }
@@ -112,10 +145,48 @@ a:hover{
         display: block;
     }
 
-/* first page for mobile 
+/* first page */
 
+
+
+
+
+/*
+For mobile phones:
 [class*="col-"] {
     width: 100%;
-} */
+  } */
+  
+  /* @media only screen and (min-width: 600px) {
+    /* For tablets: 
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: 
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  } */
+
 
 }
