@@ -1,7 +1,10 @@
-@import url('https://fonts.google.com/');
+@import url('https://fonts.google.com/specimen/Caladea');
+@import url('https://fonts.google.com/specimen/Merriweather');
 @font-face {
     font-family: 'Lastica';
-    src: url(FontsFree-Net-Lastica.ttf);
+    src: url(fonts/FontsFree-Net-Lastica.ttf);
+    font-family: 'CalmiusSans';
+    src: url(fonts/CalmiusSans-Oppo.otf);
 }
 
 *{
@@ -66,19 +69,14 @@ a:hover{
 }
 
 .social{
-    padding-left:200px;
+    padding-left:300px;
 }
 
-/* .social a:hover{
-    text-shadow: 1px 1px 7px white;
-    font-size: large;
-} */
 
 nav.social a:hover{
 
     box-shadow: 1px 1px 7px pink;
-    max-height: fit-content;
-    margin: 10px ;    
+    max-height: fit-content;   
 }
 
 .seneca{
@@ -96,6 +94,177 @@ nav.social a:hover{
 
 .ln{
     margin:15px;
+}
+
+/* about me page */
+.container1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-wrap: wrap;
+    margin:10px;
+    border: 2px solid black;
+    /* margin-bottom: -200px; */
+}
+
+div > p{     /*description text*/
+    margin:50px;
+    padding: 50px;
+    width: 800px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+ 
+.head1{        /*description title - about me*/
+    font-family:'Caladea';
+    font-size: 100px;
+    padding: 50px;
+    margin:50px;
+}
+
+/* tech stack  */
+
+/*
+
+.s8{
+border: 2px solid red;
+padding: 6px;
+margin: 6px;
+}
+
+.s9{
+border: 2px solid red;
+padding: 25px;
+margin: 6px;
+}
+
+.s10{
+border: 2px solid red;
+padding: 25px;
+margin: 6px;
+}
+
+.s11{
+border: 2px solid red;
+padding: 25px;
+margin: 6px;
+}
+
+.s12{
+border: 2px solid red;
+padding: 6px;
+margin: 6px;
+}
+
+.s13{
+border: 2px solid red;
+padding: 25px;
+margin: 6px;
+}
+
+.s14{
+border: 2px solid red;
+padding: 25px;
+margin: 6px;
+}
+
+.s15{
+    border: 2px solid white;
+    margin: 0px;
+    width:100%; 
+} */
+
+.stack{
+    border: 2px solid blue;
+    margin:10px;
+    padding:10px;
+    text-align: center;
+}
+
+.stack > h1{
+    padding:10px;
+
+}
+
+ /* css3 */
+.s1{
+    width:10%;
+    font-size: 20px;
+    /* display:inline-block; */
+    border: 2px solid white;
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+/* nextjs */
+
+.s2{
+    width:10%;
+    font-size: 20px;
+    /* display:inline-block; */
+    border: 2px solid white;
+    margin-left:150px;
+    margin-top: -100px;
+}
+
+/* python */
+
+.s3{
+    width:10%;
+    font-size: 20px;
+   border: 2px solid white;
+   margin-left:10px;
+   margin-top: 200px;
+}
+
+/* git github */
+.s4{
+    width:10%;
+    font-size: 20px;
+border: 2px solid white;
+
+margin-left:400px;
+margin-top: 10px;
+    }
+
+    /* html  */
+    
+    .s5{
+        width:10%;
+        font-size: 20px;
+border: 2px solid white;
+margin-left:250px;
+margin-top: 150px;
+    }
+    
+    /* c lang  */
+    .s6{
+        width:10%;
+        font-size: 20px;
+border: 2px solid white;
+margin-left:700px;
+margin-top: 10px;
+    }
+
+    /* tailwind css  */
+    
+    .s7{
+        width:10%;
+        font-size: 20px;
+ border: 2px solid white;
+ margin-left:500px;
+ margin-top: -160px;
+    }
+
+    /* tech stack  */
+
+.s8{
+    border: 2px solid pink;
+    width: 45%;
+       font-size: 85px; 
+       font-family:'Merriweather';
+       margin-left: 30%;
+       margin-top: 5%;
 }
 
 /* all media queries */
